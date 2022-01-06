@@ -1,0 +1,41 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:layout="sap.ui.layout"
+	xmlns:sap.ca.ui="sap.ca.ui" xmlns:suite="sap.suite.ui.commons">
+	<!-- This extension point can be used to add fields to layout:mainContent -->
+	<!--<IconTabBar xmlns="sap.m" id="tabBar_clone" expandable="false" select="onTabSelect" visible="false">
+				<items>
+					<IconTabFilter icon="sap-icon://hint" tooltip="{i18n>comments.tooltip}" key="DESCRIPTION" id="DescriptionContent_clone">
+						<core:ExtensionPoint xmlns:core="sap.ui.core" name="CustomerExtensionForInfoTabContent">
+							<layout:VerticalLayout xmlns:layout="sap.ui.layout" id="infoTabContent_clone" class="crossFndFioriInboxDescription">
+							<layout:content>
+							<core:HTML content="{path: 'detail>/Description', formatter: 'cross.fnd.fiori.inbox.Conversions.formatterHtml'}" sanitizeContent="true"/>
+							</layout:content>
+							</layout:VerticalLayout>
+							<form:Form xmlns:form="sap.ui.layout.form">
+								<form:formContainers>
+									<form:FormContainer id="customAttributesContainer_clone"/>
+								</form:formContainers>
+								<form:layout>
+									<form:ResponsiveLayout/>
+								</form:layout>
+							</form:Form>
+						</core:ExtensionPoint>
+					</IconTabFilter>
+					<IconTabFilter id="MIBNoteIconTabFilter_clone" icon="sap-icon://notes" tooltip="{i18n>notes.tooltip}" count="{detail>/CommentsCount}" visible="{parts: [{path: 'detail>/TaskSupports/Comments'}, {path: 'detail>/SupportsComments'}], formatter:'cross.fnd.fiori.inbox.Conversions.formatterSupportsProperty'}" key="NOTES">
+						<core:ExtensionPoint xmlns:core="sap.ui.core" name="CustomerExtensionForNoteTabContent">
+							<core:ComponentContainer id="commentsContainer_clone" propagateModel="true"/>
+						</core:ExtensionPoint>
+					</IconTabFilter>
+					<IconTabFilter id="MIBAttachmentIconTabFilter_clone" icon="sap-icon://attachment" tooltip="{i18n>attachments.tooltip}" count="{detail>/AttachmentsCount}" visible="{parts: [{path: 'detail>/TaskSupports/Attachments'}, {path: 'detail>/SupportsAttachments'}], formatter:'cross.fnd.fiori.inbox.Conversions.formatterSupportsProperty'}" key="ATTACHMENTS">
+						<core:ExtensionPoint xmlns:core="sap.ui.core" name="CustomerExtensionForAttachmentTabContent">
+							<core:ComponentContainer id="attachmentComponent_clone"/>
+						</core:ExtensionPoint>
+					</IconTabFilter>
+					<IconTabFilter id="MIBObjectLinksTabFilter_clone" icon="sap-icon://chain-link" tooltip="{i18n>relatedObjects.tooltip}" count="{detail>/ObjectLinksCount}" visible="{ path: 'detail>/TaskSupports/TaskObject', formatter: 'cross.fnd.fiori.inbox.Conversions.formatterVisibilityOfObjectIconTab' }" key="OBJECTLINKS">
+						<core:ExtensionPoint xmlns:core="sap.ui.core" name="CustomerExtensionForObjectLinkTabContent">
+							<core:Fragment fragmentName="cross.fnd.fiori.inbox.frag.ObjectLinks" type="XML"/>
+						</core:ExtensionPoint>
+					</IconTabFilter>
+					<core:ExtensionPoint xmlns:core="sap.ui.core" name="CustomerExtensionForAdditionalTabs"/>
+				</items>
+			</IconTabBar> -->
+</core:FragmentDefinition>
